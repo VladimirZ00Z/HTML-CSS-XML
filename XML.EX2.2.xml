@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE library SYSTEM "XML.EX2.2_DTD.dtd">
+
+<library>
+    <book_catalog>Catalog 1</book_catalog>
+        <book id="1" year="2019" issue="original"></book>
+            <author>Autor 1</author>
+            <title>Book 1</title>
+            <publishing>Publishing 1</publishing>
+            <annotation>Annotation 1</annotation>
+        <book id="2" year="2021" isbn="" issue="tranlsation"></book>
+            <author>Autor 2</author>
+            <title>Book 2</title>
+            <publishing>Publishing 2</publishing>
+            <annotation>Annotation 2</annotation>
+
+    <author_catalog> </author_catalog>
+        <author_book> </author_book>
+   
+    <author_book idref="#1">Autor1</author_book>        
+
+</library>
